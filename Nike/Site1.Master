@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Nike.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="Title"  runat="server"></asp:ContentPlaceHolder></title>
+    <link rel="stylesheet" type="text/css" href="CSS/StyleSheet.css" />
+    
+
+</head>
+
+<body runat="server">
+
+ <div id="page">
+    <div id="header">
+ <h1><asp:ContentPlaceHolder ID="Heading1" runat ="server"></asp:ContentPlaceHolder></h1>
+
+    </div>
+
+    <div id="menu">
+        <div id="nav">
+       <ul>
+        <li><a href="Default.">Home</a></li>
+        <li><a href="Products.aspx">Product</a></li>
+        <li><a href="ContactUs.aspx">Contact Us</a></li>
+        
+       </ul>
+        </div>
+    </div>
+
+ <div id="content_area">
+    <h2><asp:ContentPlaceHolder ID ="Heading2" runat ="server"></asp:ContentPlaceHolder></h2>
+     <asp:ContentPlaceHolder ID ="MainContent" runat ="server"></asp:ContentPlaceHolder>
+    
+ </div>
+
+ <div id="sidebar">
+     <asp:ContentPlaceHolder ID ="SideContent" runat ="server"></asp:ContentPlaceHolder>
+
+ </div>
+
+ <div id="footer">
+
+   <p>&copy;Syron Eugene Liew Student No:1626495 Assesment No:J39721 Student ID No:LCB/3072/</p>
+ </div>
+
+
+</div>
+</body>
+</html>
