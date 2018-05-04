@@ -18,7 +18,7 @@
 #header {
     height: 350px;
     border: 3px solid #e3e3e3;
-    background-image:url(../Images/Banner/Banner1.jpg);
+    background-image:url('../Images/Nike Banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -60,8 +60,8 @@
     }
 
     #nav a:hover {
-        color: th: 750px;
-    ;
+        
+    
     }
 #content_area {
     float: left;

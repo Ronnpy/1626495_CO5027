@@ -1,7 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Nike.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Nike.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Heading1" runat="server">
+    <asp:Image ID="Image1" runat="server" />
+        &nbsp;
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Heading2" runat="server">
     Welcome to the land of Nike Basketball Shoes
